@@ -1,24 +1,41 @@
 ---
 title: Antora
-repo: https://gitlab.com/antora
-homepage: https://antora.org/
+repo: https://gitlab.com/antora/antora
+homepage: https://antora.org
 language:
   - JavaScript
 license:
-  - Mozilla 2.0
+  - MPL-2.0
 templates:
   - Handlebars
-description: The Static Site Generator for Tech Writers
+description: A multi-repository documentation site generator for tech writers who love writing in AsciiDoc.
+twitter: antoraproject
 ---
 
-Antora makes it easy for tech writers to create documentation and publish it to the web. 
-As a tech writer, you simply author content in AsciiDoc, Antora’s content markup language. You then organize those files into a standard project structure in one or more content repositories. Antora picks up your content from there and transforms it into a website. That’s all there is to it!
+### Overview
 
-With Antora, you manage docs as code. 
-That means your documentation process benefits from the same practices used to produce successful software.
-Some of these practices include:
-* Storing content in a version control system.
-* Separating content, configuration, and presentation.
-* Leveraging automation for compilation, validation, verification, and publishing.
-* Reusing shared materials (DRY).
+Antora is a modular, multi-repository site generator designed for producing documentation sites from content composed in AsciiDoc and processed with Asciidoctor.
 
+Antora provides both a toolchain and workflow to help documentation and engineering teams create, manage, collaborate on, remix, and publish documentation sites aggregated from multi-branch git repositories without needing expertise in web technologies, build automation, or system administration.
+
+### Who it's for
+
+Tech writers, first and foremost.
+
+If you're already using Asciidoctor, and you need help managing a large set of documentation, Antora was designed for you.
+If you haven't yet tried Asciidoctor or AsciiDoc, Antora is a great way to get started because it puts you in the driver's seat writing content.
+
+### What it includes
+
+Antora includes a command line interface (CLI) (command: antora), a preassembled site generator pipeline, and a default UI so you can get started quickly publishing documentation sites with Antora.
+
+Since Antora is both modular and extensible, there are plenty of opportunities to explore to take it further once you have your first site up and running.
+
+### Availability
+
+Antora is available via npm or a Docker image.
+Antora runs on Linux, macOS, and Windows.
+
+### Learn more
+
+To learn more, be sure to check out the [Antora documentation](https://docs.antora.org), which, of course, is published by Antora itself.
